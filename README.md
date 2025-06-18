@@ -157,7 +157,7 @@ Streamlit UI showing the home screen with model selector, tone picker, and use-c
 - **Code Review** – Find issues and refactor suggestions in pasted/uploaded code
 
 Code Review Use Case
-![Code Review](screenshots/ui-code review.png.png)  
+![Code Review](screenshots/ui-code review.png.png) 
 *Using the Code Review mode with Mistral and Critical tone to analyze and suggest improvements on a snippet of code.*
 
 
