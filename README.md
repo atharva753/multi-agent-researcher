@@ -99,7 +99,7 @@ python mcp_server.py
 ```
 
  MCP Server Running
-![MCP Server](screenshots/mcp-server.png)  
+![MCP Server](screenshots/mcp-server.png.png)  
 FastAPI‑based MCP server registering `deep_research` and `summarize_file` tools and listening on port 8000.
 
 ### Start the frontend (Streamlit UI)
@@ -110,7 +110,7 @@ streamlit run streamlit_ui.py
 Go to: [http://localhost:8501](http://localhost:8501)
 
 Streamlit Home Interface
-![UI Home](screenshots/ui-home.png)  
+![UI Home](screenshots/ui-home.png.png)  
 Streamlit UI showing the home screen with model selector, tone picker, and use-case dropdown.
 ---
 
@@ -150,14 +150,14 @@ Streamlit UI showing the home screen with model selector, tone picker, and use-c
 
 - **Academic Paper Summarization** – Upload papers and get fast summaries
 
-![PDF Summary](screenshots/ui-pdf-summary.png)  
+![PDF Summary](screenshots/ui-pdf-summary.png.png)  
 *Uploading a PDF and clicking “Summarize File” to get a concise summary of the document content.*
 
 
 - **Code Review** – Find issues and refactor suggestions in pasted/uploaded code
 
 Code Review Use Case
-![Code Review](screenshots/ui-code review.png)  
+![Code Review](screenshots/ui-code review.png.png)  
 *Using the Code Review mode with Mistral and Critical tone to analyze and suggest improvements on a snippet of code.*
 
 
@@ -165,7 +165,7 @@ Code Review Use Case
 - **Topic Deep-Dives** – Query complex topics (e.g., climate tech) and get multi-agent synthesis
 
 After Running a Research Query
-![UI Response](screenshots/ui-response.png)  
+![UI Response](screenshots/ui-response.png.png)  
 *Result of asking “What are the latest trends in green hydrogen tech?” using Mistral with Critical tone, showing chat history and export option.*
 
 - **Policy/Report Summarization** – Drop in PDFs and extract key takeaways instantly
