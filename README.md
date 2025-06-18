@@ -22,7 +22,7 @@ python mcp_server.py
 ```
 # 🧠 Multi-Agent Researcher
 
-An intelligent, modular **Multi-Agent AI Assistant** that performs deep research on user queries using large language models (LLMs). It supports custom use cases like academic summarization, code reviews, startup validation, and document summarization — all through a clean Streamlit UI and backend agent orchestration.
+An intelligent, modular **Multi-Agent AI Assistant** that performs deep research on user queries using large language models (LLMs). It supports custom use cases, such as academic summarization, code reviews, startup validation, and document summarization — all through a clean Streamlit UI and backend agent orchestration.
 
 ---
 
@@ -162,13 +162,26 @@ Code Review Use Case
 
 
 - **Startup Validator** – Validate your business ideas using agent SWOT analysis
-- **Topic Deep-Dives** – Query complex topics (e.g., climate tech) and get multi-agent synthesis
 
+### Startup Idea Validator — Constructive Tone using GPT‑4‑Turbo
+![Startup Idea](screenshots/ui-startup-summary.png.png)  
+*A startup founder inputs a business idea — “Validate the potential of a social media platform for senior citizens.”  
+The assistant, powered by **GPT -4 Turbo** and **Constructive** tone, provides a structured market validation response under the **Startup Idea** use case.*
+
+
+
+- **Topic Deep-Dives** – Query complex topics (e.g., climate tech) and get multi-agent synthesis
+- 
 After Running a Research Query
 ![UI Response](screenshots/ui-response.png.png)  
 *Result of asking “What are the latest trends in green hydrogen tech?” using Mistral with Critical tone, showing chat history and export option.*
 
+
 - **Policy/Report Summarization** – Drop in PDFs and extract key takeaways instantly
+- 
+### Policy Research — Objective Tone using Mistral
+![Policy Research](screenshots/ui-policy-research.png.png)  
+*User submits a policy analysis query using the **Mistral** model, with an **Objective** tone and the **Policy Analysis** use case selected. Ideal for academic or policy-oriented research workflows.*
 
 
 ---
@@ -195,4 +208,13 @@ Pull requests welcome! You can:
 streamlit run streamlit_ui.py
 ```
 
+
+### Full Query and Response View — Streamlit UI in Action
+![Full Query](screenshots/ui-query-response.png.png)  
+*The Multi‑Agent Researcher dashboard displays a complete research workflow: the user enters a question, selects the desired model, tone, and use case — and the system returns an AI‑generated structured report.  
+This screenshot captures the full chat interface, active session history, and sidebar settings for model selection and tone control.*
+
+
 Open [http://localhost:8501](http://localhost:8501).
+
+
