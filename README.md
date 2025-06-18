@@ -171,14 +171,14 @@ The assistant, powered by **GPT -4 Turbo** and **Constructive** tone, provides a
 
 
 - **Topic Deep-Dives** – Query complex topics (e.g., climate tech) and get multi-agent synthesis
-- 
+  
 After Running a Research Query
 ![UI Response](screenshots/ui-response.png.png)  
 *Result of asking “What are the latest trends in green hydrogen tech?” using Mistral with Critical tone, showing chat history and export option.*
 
 
 - **Policy/Report Summarization** – Drop in PDFs and extract key takeaways instantly
-- 
+  
 ### Policy Research — Objective Tone using Mistral
 ![Policy Research](screenshots/ui-policy-research.png.png)  
 *User submits a policy analysis query using the **Mistral** model, with an **Objective** tone and the **Policy Analysis** use case selected. Ideal for academic or policy-oriented research workflows.*
